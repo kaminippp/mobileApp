@@ -1,0 +1,47 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'mobileApp' do
+  rn_path = '../node_modules/react-native'
+  rn_maps_path = '../node_modules/react-native-maps'
+
+  # See http://facebook.github.io/react-native/docs/integration-with-existing-apps.html#configuring-cocoapods-dependencies
+  pod 'yoga', path: "#{rn_path}/ReactCommon/yoga/yoga.podspec"
+  pod 'React', path: rn_path, subspecs: [
+    'Core',
+    'CxxBridge',
+    'DevSupport',
+    'RCTActionSheet',
+    'RCTAnimation',
+    'RCTGeolocation',
+    'RCTImage',
+    'RCTLinkingIOS',
+    'RCTNetwork',
+    'RCTSettings',
+    'RCTText',
+    'RCTVibration',
+    'RCTWebSocket',
+  ]
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+
+  pod 'react-native-maps', :path => '../node_modules/react-native-maps'
+
+  pod 'react-native-netinfo', :path => '../node_modules/@react-native-community/netinfo'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'react-native-google-maps'
+      target.build_configurations.each do |config|
+        config.build_settings['CLANG_ENABLE_MODULES'] = 'No'
+      end
+    end
+    if target.name == "React"
+      target.remove_from_project
+    end
+  end
+end

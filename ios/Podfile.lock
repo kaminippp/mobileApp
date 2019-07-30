@@ -1,0 +1,115 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - BVLinearGradient (2.5.4):
+    - React
+  - DoubleConversion (1.1.5)
+  - Folly (2016.09.26.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.4)
+  - React (0.54.3):
+    - React/Core (= 0.54.3)
+  - react-native-image-picker (0.28.1):
+    - React
+  - react-native-maps (0.24.2):
+    - React
+  - React/Core (0.54.3):
+    - yoga (= 0.54.3.React)
+  - React/CxxBridge (0.54.3):
+    - Folly (= 2016.09.26.00)
+    - React/Core
+    - React/cxxreact
+  - React/cxxreact (0.54.3):
+    - boost-for-react-native (= 1.63.0)
+    - Folly (= 2016.09.26.00)
+    - React/jschelpers
+    - React/jsinspector
+  - React/DevSupport (0.54.3):
+    - React/Core
+    - React/RCTWebSocket
+  - React/fishhook (0.54.3)
+  - React/jschelpers (0.54.3):
+    - Folly (= 2016.09.26.00)
+    - React/PrivateDatabase
+  - React/jsinspector (0.54.3)
+  - React/PrivateDatabase (0.54.3)
+  - React/RCTActionSheet (0.54.3):
+    - React/Core
+  - React/RCTAnimation (0.54.3):
+    - React/Core
+  - React/RCTBlob (0.54.3):
+    - React/Core
+  - React/RCTGeolocation (0.54.3):
+    - React/Core
+  - React/RCTImage (0.54.3):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.54.3):
+    - React/Core
+  - React/RCTNetwork (0.54.3):
+    - React/Core
+  - React/RCTSettings (0.54.3):
+    - React/Core
+  - React/RCTText (0.54.3):
+    - React/Core
+  - React/RCTVibration (0.54.3):
+    - React/Core
+  - React/RCTWebSocket (0.54.3):
+    - React/Core
+    - React/fishhook
+    - React/RCTBlob
+  - yoga (0.54.3.React)
+
+DEPENDENCIES:
+  - BVLinearGradient (from `../node_modules/react-native-linear-gradient`)
+  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - react-native-maps (from `../node_modules/react-native-maps`)
+  - React/Core (from `../node_modules/react-native`)
+  - React/CxxBridge (from `../node_modules/react-native`)
+  - React/DevSupport (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTGeolocation (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTNetwork (from `../node_modules/react-native`)
+  - React/RCTSettings (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTVibration (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - DoubleConversion
+    - Folly
+    - glog
+
+EXTERNAL SOURCES:
+  BVLinearGradient:
+    :path: "../node_modules/react-native-linear-gradient"
+  React:
+    :path: "../node_modules/react-native"
+  react-native-image-picker:
+    :path: "../node_modules/react-native-image-picker"
+  react-native-maps:
+    :path: "../node_modules/react-native-maps"
+  yoga:
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
+  DoubleConversion: e22e0762848812a87afd67ffda3998d9ef29170c
+  Folly: 211775e49d8da0ca658aebc8eab89d642935755c
+  glog: 1de0bb937dccdc981596d3b5825ebfb765017ded
+  React: 7ee238749bd571ed71599692b435b594ff6c3dd9
+  react-native-image-picker: fd93361c666f397bdf72f9c6c23f13d2685b9173
+  react-native-maps: 0316ed017dbb64b33b227751fa810e2454fcfa39
+  yoga: c81c62b019f17af2d0d46c1083668f3311157003
+
+PODFILE CHECKSUM: 91ed05aea315c4de205b0674c53e67c9cf9f3aa1
+
+COCOAPODS: 1.7.2

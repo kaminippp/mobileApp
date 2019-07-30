@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>2708AC04-267C-4999-8ED1-FE24450C286A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>2708AC04-267C-4999-8ED1-FE24450C286A.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mobileApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mobileApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace mobileApp with scheme mobileApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>586087408.57141995</real>
+			<key>timeStoppedRecording</key>
+			<real>586087415.75439203</real>
+			<key>title</key>
+			<string>Building workspace mobileApp with scheme mobileApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>2708AC04-267C-4999-8ED1-FE24450C286A</string>
+		</dict>
+		<key>DA8BC16E-CA0B-418F-B8DE-0F3A4D3C5A14</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA8BC16E-CA0B-418F-B8DE-0F3A4D3C5A14.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>mobileApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>mobileApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace mobileApp with scheme mobileApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>586158316.57615304</real>
+			<key>timeStoppedRecording</key>
+			<real>586158318.35762501</real>
+			<key>title</key>
+			<string>Building workspace mobileApp with scheme mobileApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DA8BC16E-CA0B-418F-B8DE-0F3A4D3C5A14</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
