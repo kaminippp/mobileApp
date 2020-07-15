@@ -5,7 +5,7 @@ This project is created with React-Native, Redux, Saga and Jest as testing frame
 
 Right now this has lisitng and detail page.
 
-List Screen:
+- List Screen:
 
 
 ![alt List Screen](https://github.com/kaminippp/mobileApp/blob/master/screenshot1.png)
@@ -13,7 +13,7 @@ List Screen:
 
 
 
-Detail Screen:
+- Detail Screen:
 
 
 ![alt List Detail Screen](https://github.com/kaminippp/mobileApp/blob/master/screenshot2.png)
